@@ -1,0 +1,96 @@
+/* Updated CSS */
+/* main container */
+body{
+  font-family:'Montserrat';
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* search field */
+.search {
+  margin-top: 30px;
+  padding: 8px;
+  border: 1px solid #cccccc81;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  width: 50%;
+}
+
+/* listitem for all the list of job */
+.listItem {
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  border-left: 3px solid #1E75BB;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.listItem:hover {
+  background-color: #eae8e875;
+  transform: scale(1.01);
+}
+
+h2 , h3 {
+  font-size: 16px;
+  margin-left: 16px;
+}
+
+.listItem.active {
+  background-color: #f0f0f0;
+}
+
+/* this is for the right side */
+.userDescription {
+  width: 50%;
+  height: 600px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10px;
+  border-top: 3px solid #1E75BB;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button2 {background-color:#1E75BB;
+} 
+.button2:hover {
+  background-color: #1a65a3 ;
+  color: white;
+  transform: scale(1.01);
+}
