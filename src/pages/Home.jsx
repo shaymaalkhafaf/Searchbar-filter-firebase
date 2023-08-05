@@ -54,7 +54,7 @@ const Home = () => {
             <p>{selectedUser.description}</p>
           </div>
         )}
-        <button onClick={() => getTestData("Companies")}>Get Test Data</button>
+        {/* <button onClick={() => getTestData("Companies")}>Get Test Data</button> */}
       </div>
     </div>
     
