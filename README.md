@@ -1,5 +1,4 @@
-# Getting Started with Create React App
-
+# This task was for terralabor company, the website called Blukers, I used React + Firebase to fetch the data 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
